@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 
 function Drawer() {
   const [isDrawerOpen, setDrawerOpen] = useState(true);
-  const [screenSize, setScreenSize] = useState(0);
   let path = location.pathname;
   //choose the screen size
 
